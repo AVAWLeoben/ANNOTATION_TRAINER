@@ -50,6 +50,15 @@ This application trains **class/object recognition**, not bounding-box drawing a
 
 SQLite uses Python's built-in `sqlite3` module; no database server or extra SQLite package is required.
 
+Recommended conda environment on Windows:
+
+```powershell
+conda create -n ANNOTATION_TRAINER python=3.12
+conda activate ANNOTATION_TRAINER
+pip install --upgrade pip
+pip install PySide6 PyYAML
+```
+
 Install dependencies:
 
 ```bash
