@@ -99,12 +99,6 @@ Run:
 python yolo_annotation_trainer.py
 ```
 
-If you are using the current versioned development file directly:
-
-```bash
-python yolo_annotation_trainer_v4_3_shortcuts.py
-```
-
 ## Training data structure
 
 Every immediate subdirectory of `TRAINING_DATA/` becomes a category card in the main menu.
